@@ -35,3 +35,12 @@ a {
   text-decoration: none;
   display: block;
 }
+
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
