@@ -8,9 +8,6 @@ const App = () => {
     <>
       <div className='container'>
 
-        <Link to='/'>Home</Link>
-        <Link to='/pizza'>Pizza</Link>
-
         <Route exact path='/'>
           <Home />
         </Route>
@@ -18,7 +15,6 @@ const App = () => {
         <Route path='/pizza'>
           <Form />
         </Route>
-
 
       </div>
     </>
